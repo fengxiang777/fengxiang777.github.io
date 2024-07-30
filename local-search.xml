@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Hexo Fluid 基本功能</title>
+    <link href="/2024/07/30/Hexo-Fluid-%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD/"/>
+    <url>/2024/07/30/Hexo-Fluid-%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD/</url>
+    
+    <content type="html"><![CDATA[<h1>Hexo_Fluid_基本功能</h1><p><a href="https://hexo.io/zh-cn/docs/commands">官方指令文档</a></p><h2 id="基本功能">基本功能</h2><blockquote><ol><li><strong>添加文章</strong></li></ol></blockquote><p>在博客根目录下执行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo new <span class="hljs-string">&quot;name_of_article&quot;</span><br></code></pre></td></tr></table></figure><p>会在<code>hexo-blog\source\_posts</code>中新建<code>name_of_article.md</code>与同名文件夹</p><blockquote><ol start="2"><li><strong>删除文章</strong></li></ol></blockquote><p>在<code>_posts</code>文件夹下将md文件与文件夹删除，并删除根目录下的<code>.deploy_git</code>文件夹。<br>最后执行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo g -d<br></code></pre></td></tr></table></figure><p>效果与<code>hexo d -g</code>相同，均为生成静态文件再部署到指定的GitHub页面</p><blockquote><ol start="3"><li><strong>清除本地缓存与静态文件</strong></li></ol></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean<br></code></pre></td></tr></table></figure><p>常在编辑完成后组合执行<code>hexo clean &amp; hexo g -d</code>。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>博客维护</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>学习笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>VAE学习笔记</title>
     <link href="/2024/07/30/VAE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <url>/2024/07/30/VAE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
