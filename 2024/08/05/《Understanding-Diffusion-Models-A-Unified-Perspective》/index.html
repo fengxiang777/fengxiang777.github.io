@@ -27,7 +27,7 @@
 <meta property="og:description" content="Pre:条件独立与马尔科夫性 P(AB∣C)&#x3D;P(A∣C)P(B∣C)⇒P(B∣AC)&#x3D;P(B∣C)P( AB| C) &#x3D; P( A| C) P( B| C) \Rightarrow P( B| AC) &#x3D; P( B| C)P(AB∣C)&#x3D;P(A∣C)P(B∣C)⇒P(B∣AC)&#x3D;P(B∣C)  C:事件表示现在； A: 事件表示过去； B: 事件表示未来； 这样在条件独立的前提下，P(B∣AC)">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-08-05T07:28:56.000Z">
-<meta property="article:modified_time" content="2024-08-05T12:20:01.846Z">
+<meta property="article:modified_time" content="2024-08-06T14:41:39.943Z">
 <meta property="article:author" content="FengXiang777">
 <meta property="article:tag" content="学习笔记">
 <meta name="twitter:card" content="summary_large_image">
@@ -259,7 +259,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          181 字
+          238 字
         
       </span>
     
@@ -335,6 +335,15 @@
 <blockquote>
 <p>条件独立无法得到绝对独立，绝对独立也无法得到条件独立！</p>
 </blockquote>
+<h2 id="扩散模型">扩散模型</h2>
+<p><strong>主要流程：</strong></p>
+<ol>
+<li>层级VAE模型（引入变分后验，参数<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϕ</mi></mrow><annotation encoding="application/x-tex">\phi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">ϕ</span></span></span></span>，重要性采样）</li>
+<li>引入ELBO最大化证据下界</li>
+<li>假设从样本到隐变量的过程均为高斯分布</li>
+<li></li>
+</ol>
+<h3 id="层级VAE">层级VAE</h3>
 
                 
               </div>
